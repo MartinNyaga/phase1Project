@@ -113,3 +113,26 @@ submitPurchase.addEventListener("click", () => {
       });
   }
 });
+
+//Getting the food suggestions from a deployed db.json file
+function suggestFoods(){
+  fetch('https://json-server-6ntd.onrender.com/foods')
+  .then(res => res.json())
+  .then(mov => mealSuggest(mov))
+}
+suggestFoods();
+
+//Dom for the suggested meals
+
+function mealSuggest(foodStuff) {
+  let meals = document.getElementById('foods')
+  
+  for(let dub of foodStuff){
+    let mealList = document.createElement('li')
+    mealList.innerHTML = `<img src="${dub.image}">
+    <h3>${dub.name}</h3>
+    <p>Description: ${dub.description}</p>`;
+    meals.appendChild(mealList);
+  }                 
+
+}
