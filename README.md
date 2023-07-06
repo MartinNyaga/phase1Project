@@ -34,9 +34,29 @@ The following have been used on this project:
 
 ## Screenshots 
 
-- Homepage
+- Homepage with food suggestions
 
-  <img src="" alt="screenshot" />
+  <img src="./screenshots/home.png" alt="screenshot" />
+
+- Search for food to be served
+
+  <img src="./screenshots/foodSearch.png" alt="screenshot" />
+
+- Pay for meal button clicked
+
+  <img src="./screenshots/payment1.png" alt="screenshot" />
+
+- Submit button clicked
+
+  <img src="./screenshots/payment2.png" alt="screenshot" />
+
+- X button clicked 
+
+  <img src="./screenshots/payment3.png" alt="screenshot" />
+
+- Like button clicked
+
+  <img src="./screenshots/likedFood.png" alt="screenshot" />
 
 
 
