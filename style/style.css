@@ -12,9 +12,7 @@ header{
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
-  body {
-    
-  }
+  
   .container {
     background-color: #ffffff;
     font-size: 16px;
@@ -78,17 +76,7 @@ header{
     border-radius: 0.3em;
     font-weight: 600;
   }
-  /* #show-recipe {
-    font-size: 1em;
-    position: relative;
-    left: 75%;
-    padding: 0.9em 0.6em;
-    background-color: #f4c531;
-    border: none;
-    top: 1.5em;
-    border-radius: 0.3em;
-    font-weight: 600;
-  } */
+  
 
   #show-recipe {
     font-size: 1em;
@@ -181,10 +169,17 @@ header{
     color: #303040;
     text-transform: capitalize;
   }
+  h2 {
+    text-align: center;
+    margin-top: 1.8em;
+    color: #202030;
+    font-family: 'Bacasime Antique', serif;
+  }
   h3 {
     text-align: center;
     margin-top: 1.8em;
     color: #202030;
+    font-family: 'Bacasime Antique', serif;
   }
   @media screen and (max-width: 500px) {
     .container {
@@ -219,3 +214,16 @@ header{
   #purchase-form button:hover {
     background-color: #45a049;
   }
+
+  .right {
+    display: inline-block;
+    
+    
+    width: 300px;
+    border: 3px solid yellow;
+    padding: 10px;
+  }
+
+ 
+
+  
