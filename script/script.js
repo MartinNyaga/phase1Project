@@ -129,6 +129,7 @@ function mealSuggest(foodStuff) {
   
   for(let dub of foodStuff){
     let mealList = document.createElement('li')
+    
     mealList.innerHTML = `<img src="${dub.image}">
     <h3>${dub.name}</h3>
     <p>Description: ${dub.description}</p>`;
